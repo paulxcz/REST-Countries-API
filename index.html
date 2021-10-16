@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--CUSTOM FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <!--Font Awesom-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Normalize css-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Rest Countries</title>
+</head>
+<body>
+    
+
+    <header class="">
+        
+        <h4>Where in the world?</h4>
+        <div class="switcher-mode">
+            <i class="far fa-moon switch-icon"></i>
+            <p>Dark <span>mode</span></p>
+        </div>
+        
+    </header>
+
+    <div id="search-menu">
+        <div class="wrapper-search-menu">
+            <div id="searcher">
+                <i class="fas fa-search"></i>
+                <input class="inputCountry" value="" type="text" placeholder="Search for a country..." translate="yes">
+            </div>
+            <div class="content-select">
+                <select id="selector-regions">
+                    <option value="all">Filter by Region</option>
+                    <option class="region" value="Africa">Africa</option>
+                    <option class="region" value="Asia">Asia</option>
+                    <option class="region" value="Americas">America</option>
+                    <option class="region" value="Europe">Europa</option>
+                    <option class="region" value="oceania">oceania</option>
+                </select>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="countries-container">
+        <!-- <div class="country">
+            <img src="https://restcountries.eu/data/per.svg" class="img-flag" alt="Country Flag" >
+            <div class="description">
+                <h3>Country</h3>
+                <p><strong>Population: </strong>Dato1</p>
+                <p><strong>Region: </strong>Dato2</p>
+                <p><strong>Capital: </strong>Dato3</p>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
